@@ -29,7 +29,12 @@ let DefaultSettings = {
 			"show_neverbuilt_jobs": false,
 			"show_disabled_jobs": false,
 			"show_aborted_jobs": false,
-		"jobs_to_show": "all"
+		"jobs_to_show": "all",
+			"use_proxy": false,
+			"proxy_uri": "",
+			"use_proxy_authentication": false,
+			"proxy_user": "";
+			"proxy_password": "",
 		}
 	]
 }
